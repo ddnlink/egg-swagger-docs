@@ -1,4 +1,4 @@
-# @ddn/egg-swagger-doc
+# @ddn/egg-swagger-docs
 
 应用于 eggjs 的 plugin，可自动生成 SwaggerUI。应用启动后访问 /swagger-ui.html 可以浏览页面，访问 /swagger-doc,获取swaggerjson. 
 
@@ -272,7 +272,7 @@ ctx.validate(ctx.rule.createResource, ctx.request.body);
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/Ysj291823/egg-swagger-doc/issues).
+Please open an issue [here](https://github.com/ddnlink/egg-swagger-docs/issues).
 
 ## License
 
