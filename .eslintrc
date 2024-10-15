@@ -1,0 +1,9 @@
+{
+  "extends": "eslint-config-egg",
+  "rules": {
+    "prefer-const": 0,
+    "array-bracket-spacing": 0,
+    "dot-notation": "off",
+    "valid-jsdoc":"off"
+  }
+}
