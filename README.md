@@ -4,19 +4,20 @@ SwaggerUI 生成器，可根据 用户注释 自动生成 OpenAPI 的工具。
 
 可以作为 Egg.js 插件使用，也可以作为命令行工具使用。应用启动后访问 /swagger-ui.html 可以浏览接口、测试接口，访问 /swagger-doc，直接获取获取 openapi.json 文件. 
 
-感谢：https://github.com/Yanshijie-EL/egg-swagger-doc
+特别感谢：https://github.com/Yanshijie-EL/egg-swagger-doc
 
-## 特别说明
+## 说明
 
 - 为什么没有直接 fork，然后 PR ？原因是原作者的代码是 Swagger 2.0 规范，与 openAPI 3.0 规范有一定的出入，改动比较大。
 - 为什么一定要生成 openAPI 3.0 规范的格式和文件？因为，另外两个插件都将按照该规范一键生成 前端和后台的 Models 。当然，还有其他更多需求。
 
 ## 升级改进
 
-1. 支持 openAPI 3.0 版本，详细规范：[openAPI v3.0.0](https://swagger.io/docs/specification/v3_0/describing-request-body/describing-request-body/)；
+1. 支持 openAPI 3.0 版本，详细规范：[openAPI v3.0.0](https://swagger.io/docs/specification/v3_0/describing-request-body/describing-request-body/)；(如果想要支持 Swagger 2.0 规范，请使用原作者的插件)
 2. 支持 RESTful API 参数自动生成；
 3. 升级到最新版的 swagger-ui-dist 包。
-4. 。。。
+4. 使用生成的 openAPI.json 生成前端的 Models，请使用插件 [@ddn/openapi](https://github.com/ddnlink/openapi)
+5. 更多功能待完善。
 
 ## 安装
 
