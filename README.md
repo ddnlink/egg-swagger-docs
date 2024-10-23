@@ -1,6 +1,8 @@
-# @ddn/egg-swagger-docs
+# @ddn/swagger-docs
 
-应用于 eggjs 的 plugin，可自动生成 SwaggerUI。应用启动后访问 /swagger-ui.html 可以浏览页面，访问 /swagger-doc,获取swaggerjson. 
+SwaggerUI 生成器，可根据 用户注释 自动生成 OpenAPI 的工具。
+
+可以作为 Egg.js 插件使用，也可以作为命令行工具使用。应用启动后访问 /swagger-ui.html 可以浏览接口、测试接口，访问 /swagger-doc，直接获取获取 openapi.json 文件. 
 
 感谢：https://github.com/Yanshijie-EL/egg-swagger-doc
 
@@ -19,7 +21,7 @@
 ## 安装
 
 ```bash
-$ npm i @ddn/egg-swagger-docs --save
+$ npm i @ddn/swagger-docs --save
 ```
 
 ## 使用
@@ -28,7 +30,7 @@ $ npm i @ddn/egg-swagger-docs --save
 // {app_root}/config/plugin.js
 exports.swaggerdoc = {
   enable: true,
-  package: '@ddn/egg-swagger-docs',
+  package: '@ddn/swagger-docs',
 };
 ```
 
