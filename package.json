@@ -48,13 +48,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ddnlink/swagger-docs.git"
+    "url": "git+https://github.com/ddnlink/ddn-swagger.git"
   },
   "bugs": {
-    "url": "https://github.com/ddnlink/swagger-docs/issues"
+    "url": "https://github.com/ddnlink/ddn-swagger/issues"
   },
-  "homepage": "https://github.com/ddnlink/swagger-docs#readme",
-  "author": "imfly",
+  "homepage": "https://github.com/ddnlink/ddn-swagger#readme",
+  "authors": [
+    "imfly <kubying@qq.com> (https://github.com/imfly)"
+  ],
   "license": "MIT",
   "publishConfig": {
     "access": "public"

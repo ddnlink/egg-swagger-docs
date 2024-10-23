@@ -16,7 +16,7 @@ SwaggerUI 生成器，可根据 用户注释 自动生成 OpenAPI 的工具。
 1. 支持 openAPI 3.0 版本，详细规范：[openAPI v3.0.0](https://swagger.io/docs/specification/v3_0/describing-request-body/describing-request-body/)；(如果想要支持 Swagger 2.0 规范，请使用原作者的插件)
 2. 支持 RESTful API 参数自动生成；
 3. 升级到最新版的 swagger-ui-dist 包。
-4. 使用生成的 openAPI.json 生成前端的 Models，请使用插件 [@ddn/openapi](https://github.com/ddnlink/openapi)
+4. 使用生成的 openAPI.json 生成前端的 Models，请使用插件 [@ddn/openapi](https://github.com/ddnlink/ddn-openapi)
 5. 更多功能待完善。
 
 ## 安装
